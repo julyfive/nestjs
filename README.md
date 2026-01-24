@@ -8,17 +8,19 @@
 
 ## Nestjs
 
-- nestjs>module>controller>
+核心就是express+装饰器
+
+nestjs>module>controller>
 
 ## tsconfig.json
 
 - compilerOptions // 编译选项
-  - target // 指定编译时使用的语言版本
-  - lib // 指定编译时使用的库 
-  - module // 指定编译时使用的模块系统
-  - moduleResolution // 指定模块解析策略
-  - experimentalDecorators // 启用实验性装饰器
-  - emitDecoratorMetadata // 启用装饰器元数据
+    - target // 指定编译时使用的语言版本
+    - lib // 指定编译时使用的库
+    - module // 指定编译时使用的模块系统
+    - moduleResolution // 指定模块解析策略
+    - experimentalDecorators // 启用实验性装饰器
+    - emitDecoratorMetadata // 启用装饰器元数据
 
 ```json
 {
