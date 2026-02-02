@@ -74,3 +74,10 @@ reflect-metadata是用于TS和ECMA的元数据反射库提案
 - 参数装饰器
     - 应用与方法的参数
     - 参数：(target:Object,propertyKey:string,parameterIndex:number)
+
+执行顺序：
+
+- 类中所有装饰器按照顺序执行（自上而下），类装饰器最后执行
+- 多个装饰器时，最接近被装饰内容的装饰器最先执行
+- 参数装饰器先于方法装饰器执行
+- 多参数时，参数装饰器按照参数的顺序，从右往左执行
