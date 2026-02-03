@@ -22,6 +22,10 @@ function validateParameters(target: Object, propertyKey: string, descriptor: Typ
     }
 }
 
+
+
+
+
 class User {
     constructor(private name: string) {
     }
